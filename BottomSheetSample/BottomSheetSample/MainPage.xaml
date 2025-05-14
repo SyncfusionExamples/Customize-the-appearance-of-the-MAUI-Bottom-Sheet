@@ -27,7 +27,7 @@
 
         <bottomSheet:SfBottomSheet x:Name="bottomSheet" ContentPadding="15" Background="LightCyan" 
                                    CornerRadius="15, 15, 0, 0" ContentWidthMode="Custom" 
-                                   BottomSheetContentWidth='{OnPlatform Android=400,WinUI=1200}'>
+                                   BottomSheetContentWidth='{OnPlatform Android=375,WinUI=1200}'>
             <bottomSheet:SfBottomSheet.BottomSheetContent>
                 <VerticalStackLayout x:Name="bottomSheetContent" Spacing="5">
                     <Grid ColumnDefinitions="120,*" ColumnSpacing="10">
